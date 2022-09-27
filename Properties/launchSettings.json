@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "InsertRandomWord": {
+      "commandName": "Project"
+    },
+    "Insert Email": {
+      "commandName": "Project",
+      "commandLineArgs": "email"
+    },
+    "Insert password": {
+      "commandName": "Project",
+      "commandLineArgs": "password"
+    }
+  }
+}
