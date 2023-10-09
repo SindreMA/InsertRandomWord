@@ -43,7 +43,7 @@ namespace InsertRandomWord
         static void Main(string[] args)
         {
             var handle = GetConsoleWindow();
-            var type = "default";
+            var type = "password";
             ShowWindow(handle, SW_HIDE);
                 if (type == "email") {
                     InsertText(GetRandomText() + new Random().Next(1000, 9999).ToString() + $"@{GetRandomText()}.com");

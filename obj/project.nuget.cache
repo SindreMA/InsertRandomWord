@@ -1,17 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "FwORJj1MGkdefW4K4/HbZP3hd04PgWQz6deudex4Nrs+Ej4aScIfQaDh5swX1cHs8csRRNkJ/YC8TmepdLZlBQ==",
+  "dgSpecHash": "KSIyBi+udfRnS87swMEP/LHGqcoj5HYTnOuZ56kTnQlVqnMW4NlrLaRE5mpTl4argKQLRgnPB6/iZyEVRUgRMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sindre\\source\\repos\\InsertRandomWord\\InsertRandomWord.csproj",
+  "projectFilePath": "C:\\Code\\InsertRandomWord\\InsertRandomWord.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sindre\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512"
+    "C:\\Users\\SindreMA\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
+    "C:\\Users\\SindreMA\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\SindreMA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\SindreMA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\SindreMA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "InputSimulator",
       "targetGraphs": [
         "net5.0"
