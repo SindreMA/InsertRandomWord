@@ -23,7 +23,7 @@ namespace InsertRandomWord
         {
             string path = Directory.GetCurrentDirectory();
 
-            var words = File.ReadAllLines(@"C:\Users\Sindre\source\repos\InsertRandomWord\words.txt");
+            var words = File.ReadAllLines($"{Environment.CurrentDirectory}\\words.txt");
             var wordCount = new Random().Next(2, 3);
 
             var word = "";
@@ -43,11 +43,17 @@ namespace InsertRandomWord
         static void Main(string[] args)
         {
             var handle = GetConsoleWindow();
+            var type = "default";
             ShowWindow(handle, SW_HIDE);
-
-                InsertText(GetRandomText());
-                InsertText(GetRandomText() + new Random().Next(1000, 9999).ToString() + ".#" );
-            
+                if (type == "email") {
+                    InsertText(GetRandomText() + new Random().Next(1000, 9999).ToString() + $"@{GetRandomText()}.com");
+                }
+                else if (type == "password") {
+                    InsertText(GetRandomText() + GetRandomText() + new Random().Next(1000, 9999).ToString() + ".#" );
+                } 
+                else {
+                    InsertText(GetRandomText());
+                }
         }
     }
 }
