@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KSIyBi+udfRnS87swMEP/LHGqcoj5HYTnOuZ56kTnQlVqnMW4NlrLaRE5mpTl4argKQLRgnPB6/iZyEVRUgRMg==",
+  "dgSpecHash": "P0g7Yt+3hFy4EEKanb8tVAFWgNRsPSQJnwjuCjBa3yiMf+zbMpl9qWmVuOFFiziGQb6EEFDG1tL2We/1VpUj2Q==",
   "success": true,
-  "projectFilePath": "C:\\Code\\InsertRandomWord\\InsertRandomWord.csproj",
+  "projectFilePath": "c:\\Code\\InsertRandomWord\\InsertRandomWord.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SindreMA\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
     "C:\\Users\\SindreMA\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",

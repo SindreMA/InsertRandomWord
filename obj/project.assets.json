@@ -44,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\InsertRandomWord\\InsertRandomWord.csproj",
+      "projectUniqueName": "c:\\Code\\InsertRandomWord\\InsertRandomWord.csproj",
       "projectName": "InsertRandomWord",
-      "projectPath": "C:\\Code\\InsertRandomWord\\InsertRandomWord.csproj",
+      "projectPath": "c:\\Code\\InsertRandomWord\\InsertRandomWord.csproj",
       "packagesPath": "C:\\Users\\SindreMA\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\InsertRandomWord\\obj\\",
+      "outputPath": "c:\\Code\\InsertRandomWord\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
