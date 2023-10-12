@@ -23,7 +23,9 @@ namespace InsertRandomWord
         {
             string path = Directory.GetCurrentDirectory();
 
-            var words = File.ReadAllLines($"{Environment.CurrentDirectory}\\words.txt");
+
+
+            var words = File.ReadAllLines($@"C:\Code\InsertRandomWord\bin\Debug\net5.0\words.txt");
             var wordCount = new Random().Next(2, 3);
 
             var word = "";
@@ -43,9 +45,9 @@ namespace InsertRandomWord
         static void Main(string[] args)
         {
             var handle = GetConsoleWindow();
-            var type = "password";
+            var type = "email";
             ShowWindow(handle, SW_HIDE);
-                if (type == "email") {
+                if (type == "emaisl") {
                     InsertText(GetRandomText() + new Random().Next(1000, 9999).ToString() + $"@{GetRandomText()}.com");
                 }
                 else if (type == "password") {
